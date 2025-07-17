@@ -69,7 +69,26 @@
   </properties>
   
   <dependencies>
-    <!-- Dependencies will be customized based on module requirements -->
+    <!-- ByteHot Domain -->
+    <dependency>
+      <groupId>org.acmsl.bytehot</groupId>
+      <artifactId>bytehot-domain</artifactId>
+      <version>1.0.0-SNAPSHOT</version>
+    </dependency>
+    
+    <!-- ByteHot Infrastructure -->
+    <dependency>
+      <groupId>org.acmsl.bytehot</groupId>
+      <artifactId>bytehot-infrastructure</artifactId>
+      <version>1.0.0-SNAPSHOT</version>
+    </dependency>
+    
+    <!-- Java Commons Base -->
+    <dependency>
+      <groupId>org.acmsl.commons</groupId>
+      <artifactId>java-commons</artifactId>
+      <version>1.0.0-SNAPSHOT</version>
+    </dependency>
     
     <!-- Lombok for reducing boilerplate -->
     <dependency>
